@@ -11,6 +11,7 @@ import SpriteKit
 import CoreMotion
 import QuartzCore
 
+
 class ViewController: UIViewController {
 
     let screenSize: CGRect = UIScreen.mainScreen().bounds
@@ -65,9 +66,11 @@ class ViewController: UIViewController {
         for (var i = 0; i<3; i++){
             var radius = propertiesList [i][0] as Float
             var x = Float(screenSize.width * 0.5)-radius/2
+            
             var y = Float(screenSize.height * 0.5)-radius/2
             var color = UIColor(rgba: propertiesList [i][1] as String)
             var bigCircle =  CircleView (frame: CGRectMake (CGFloat(x), CGFloat(y), CGFloat(radius), CGFloat(radius)), color: color)
+            
             view.addSubview(bigCircle)
             
 //            let anim = CABasicAnimation(keyPath: "position.x")
@@ -92,6 +95,7 @@ class ViewController: UIViewController {
             //var tmp2 = self.animList [i]
             tmp1.layer.position.x = tmp1.layer.position.x+(x-tmp1.layer.position.x)/CGFloat((i+1)*4)
             tmp1.layer.position.y = tmp1.layer.position.y+(y-tmp1.layer.position.y)/CGFloat((i+1)*4)
+            tmp1.layer.zPosition=CGFloat(i*1000)
            // tmp1.layer.anim.toValue = 55
             
         }

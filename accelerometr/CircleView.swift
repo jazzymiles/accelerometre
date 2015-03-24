@@ -31,7 +31,7 @@ class CircleView: UIView {
     }
     override func drawRect(rect: CGRect) {
         var context = UIGraphicsGetCurrentContext()
-        //color.set()
+        color.set()
     
         
         var r=frame.size.height/2

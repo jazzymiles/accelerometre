@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021232BD1AC1C7AB00481D0B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021232BC1AC1C7AB00481D0B /* CircleView.swift */; };
+		021232BF1AC1C7B400481D0B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021232BE1AC1C7B400481D0B /* UIColorExtension.swift */; };
 		02B879BC1AB8774100C05D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B879BB1AB8774100C05D30 /* AppDelegate.swift */; };
 		02B879BE1AB8774100C05D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B879BD1AB8774100C05D30 /* ViewController.swift */; };
 		02B879C11AB8774100C05D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B879BF1AB8774100C05D30 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021232BC1AC1C7AB00481D0B /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		021232BE1AC1C7B400481D0B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		02B879B61AB8774100C05D30 /* accelerometr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accelerometr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B879BA1AB8774100C05D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B879BB1AB8774100C05D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		02B879B81AB8774100C05D30 /* accelerometr */ = {
 			isa = PBXGroup;
 			children = (
+				021232BE1AC1C7B400481D0B /* UIColorExtension.swift */,
+				021232BC1AC1C7AB00481D0B /* CircleView.swift */,
 				02B879BB1AB8774100C05D30 /* AppDelegate.swift */,
 				02B879BD1AB8774100C05D30 /* ViewController.swift */,
 				02B879BF1AB8774100C05D30 /* Main.storyboard */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021232BD1AC1C7AB00481D0B /* CircleView.swift in Sources */,
 				02B879BE1AB8774100C05D30 /* ViewController.swift in Sources */,
 				02B879BC1AB8774100C05D30 /* AppDelegate.swift in Sources */,
+				021232BF1AC1C7B400481D0B /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				02B879D71AB8774100C05D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02B879D81AB8774100C05D30 /* Build configuration list for PBXNativeTarget "accelerometrTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				02B879DA1AB8774100C05D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
